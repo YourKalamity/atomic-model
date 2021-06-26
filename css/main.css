@@ -1,0 +1,138 @@
+body, html {
+    height:100%;
+}
+
+#first-div {
+    background-color: #292e32;
+}
+
+.full-page {
+    height:100vh;
+}
+
+#first-bg-div {
+    position: relative;
+    background-image: url("../images/title-div-wallpaper.png");
+    background-color: #292e32;
+    height: 100vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(0.5vmin);
+    -webkit-filter: blur(0.5vmin);
+    
+}
+
+#third-div {
+    position: relative;
+    height:20vh;
+    background-image: url("../images/leucippus.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.w3-Dosis {
+    font-family: "Dosis", w3-sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+#title-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%,-50%);
+    background-color:rgb(4, 136, 92);
+    border-radius: 1.5vmin;
+    color: white;
+}
+
+#title-scroll {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 5vmin;
+}
+
+#greeks-title {
+    color: #c3944c;
+    font-size: 5vmin;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#intro-div {
+    position:relative;
+    height: 40vh;
+}
+
+#intro-text {
+    position: absolute;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    font-size: 4.5vmin;
+    width:90%;
+}
+
+#ancient-greece-photo {
+    height: 30vh;
+    background-image: url("../images/ancient\ greece.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    margin:0;
+    padding: 0;
+}
+
+#ancient-greeks-title-text {
+    font-weight: bold; color:burlywood;margin:0; width:100%; height:10vh
+}
+
+#leucippus-photo {
+    width: 90vw;
+    margin:0 0 0 0;
+
+}
+
+#ancient-greeks-content {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ancient-greeks-text {
+    text-align: justify;
+    font-size: 4.5vmin;
+    width:90vw;
+}
+
+#fourth-div {
+    position: relative;
+    height:20vh;
+    background-image: url("../images/thomson.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
