@@ -2,7 +2,7 @@ body, html {
     height:100%;
 }
 
-#first-div {
+#home-div {
     background-color: #292e32;
 }
 
@@ -10,30 +10,18 @@ body, html {
     height:100vh;
 }
 
-#first-bg-div {
+#home-bg-div {
     position: relative;
     background-image: url("../images/title-div-wallpaper.png");
-    background-color: #292e32;
     height: 100vh;
     background-attachment: scroll;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(0.5vmin);
     -webkit-filter: blur(0.5vmin);
     
 }
-
-#third-div {
-    position: relative;
-    height:20vh;
-    background-image: url("../images/leucippus.jpg");
-    background-attachment: scroll;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 
 .w3-Dosis {
     font-family: "Dosis", w3-sans-serif;
@@ -104,9 +92,9 @@ h1 {
     padding: 0;
 }
 
-#modern-photo {
+#models-photo {
     height: 30vh;
-    background-image: url("../images/modern-society.png");
+    background-image: url("../images/different-models.png");
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
@@ -122,6 +110,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    justify-content: right;
 }
 
 .paragraph-text {
@@ -160,7 +149,7 @@ h1 {
     background-size: cover;
 }
 
-#schrodinger-photo {
+#schrodinger2-photo {
     position: relative;
     height:20vh;
     background-image: url("../images/schrodinger2.jpg");
@@ -203,3 +192,45 @@ h1 {
     border-radius: 1.5vmin;
     color: white;
 }
+
+@media (min-width: 720px) {
+    :is(
+        #ancient-greece-photo ,
+        #thomson-photo, #rutherford-photo, #rutherford-photo, 
+        #niels-photo, #schrodinger2-photo) {
+            background-attachment: fixed;
+            height:30vh;
+        }
+    #home-bg-div {
+        background-attachment: fixed;
+    }
+    #title-div {
+        width:auto;
+    }
+
+    #intro-text {
+        width: 40%;
+        font-size: 3vmin;
+    }
+
+    .small-photo {
+        max-height: 60vh;
+        max-width: 50vw;
+    }
+
+    #ancient-greeks {
+        height:100vh;
+    }
+    .pager {
+        flex-direction: row;
+    }
+    .paragraph-text {
+        max-width: 40%;
+        font-size:3vmin;
+        margin-right:5vw;
+    }
+    #models-photo {
+        height: 110vh;
+        background-attachment: fixed;
+    }
+}   

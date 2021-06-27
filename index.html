@@ -9,14 +9,16 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
     </head>
     <body>
         <main>
             <section id="front-page">
-                <div id="first-div" class="w3-container full-page">
+                <div id="home-div" class="w3-container full-page">
+                    <div id="home-bg-div"></div>
                     <div id="title-div" class="w3-container w3-border w3-border-white">
                         <h1 class="w3-container w3-center w3-Dosis">THE HISTORY OF THE ATOMIC MODEL</h1>
-                        <h2 class="w3-container w3-center w3-Dosis">Mohammed Kalam 6SE</h2>
+                        <h2 class="w3-container w3-center w3-Dosis">Kalam 6SE</h2>
                     </div>
                     <div id="title-scroll" class="w3-container">
                         <p class="w3-container w3-center w3-Dosis">Scroll down</p>
@@ -53,24 +55,26 @@
                 </div>
             </section>
             <section id="thomson">
-                <div id="plum-pudding-title" style="position: relative;background-color: #474f57">
-                    <h2 id="plum-pudding-title-text" class="w3-Dosis w3-center center title-text">PLUM<br>PUDDING</h2>
-                </div>
-                <div id="plum-pudding-content" class="pager">
-                    <div id="plum-pudding-photo-container" style="padding: 0; margin:0; width:100vw;">
-                        <figure>
-                            <img id="plum-pudding-photo" class="small-photo" src="images/plum-pudding-model.png" alt="A diagram of the plum pudding model" >
-                            <figcaption>
-                                The plum pudding model with negative "plums" distributed randomly
-                            </figcaption>
-                        </figure>
+                <div id="plum-pudding" class="w3-container" style="width: 100%;margin:0;padding:0%">
+                    <div id="plum-pudding-title" style="position: relative;background-color: #474f57">
+                        <h2 id="plum-pudding-title-text" class="w3-Dosis w3-center center title-text">PLUM<br>PUDDING</h2>
                     </div>
-                        <p id="plum-pudding-text" class="w3-Dosis w3-container paragraph-text">
-                            J.J Thomson had discovered that atoms weren't indvisiable as the Greeks had once thought. After carrying out an experiment, he found out that cathode rays were attracted by positively charged metal plates but repelled by negatively charged ones. Since like charges repel each other, Thomon deduced the rays were negatively charged
-                            <br> He deduced the mass of these particles were 2000x lighter than hydrogen. Originally called the "corpuscle", Thomson had discovered what we now know as electrons, proving the atom was composed of smaller parts.
-                            <br> Thomson then suggested the plum pudding model, a "pudding" of positive matter had randomly distributed negatively charged "plums". Ions form when the negative "plums" (electrons) were knocked out or into the atom.
-                            <br> This model was an improvement over the old greek model as the idea of it being split into positive and negative matter can explain things like ionic bonding.
-                        </p>
+                    <div id="plum-pudding-content" class="pager">
+                        <div id="plum-pudding-photo-container" style="padding: 0; margin:0; width:100vw;">
+                            <figure>
+                                <img id="plum-pudding-photo" class="small-photo" src="images/plum-pudding-model.png" alt="A diagram of the plum pudding model" >
+                                <figcaption>
+                                    The plum pudding model with negative "plums" distributed randomly
+                                </figcaption>
+                            </figure>
+                        </div>
+                            <p id="plum-pudding-text" class="w3-Dosis w3-container paragraph-text">
+                                J.J Thomson had discovered that atoms weren't indvisiable as the Greeks had once thought. After carrying out an experiment, he found out that cathode rays were attracted by positively charged metal plates but repelled by negatively charged ones. Since like charges repel each other, Thomon deduced the rays were negatively charged
+                                <br> He deduced the mass of these particles were 2000x lighter than hydrogen. Originally called the "corpuscle", Thomson had discovered what we now know as electrons, proving the atom was composed of smaller parts.
+                                <br> Thomson then suggested the plum pudding model, a "pudding" of positive matter had randomly distributed negatively charged "plums". Ions form when the negative "plums" (electrons) were knocked out or into the atom.
+                                <br> This model was an improvement over the old greek model as the idea of it being split into positive and negative matter can explain things like ionic bonding.
+                            </p>
+                    </div>
                 </div>
                 <div id="thomson-photo" class="w3-container"></div>
             </section>
@@ -82,26 +86,27 @@
                 <div id="gold-foil-content" class="pager">
                     <div id="gold-foil-photo-container" style="padding: 0; margin:0; width:100vw;">
                         <figure>
+                            
                             <img id="gold-foil-photo" class="small-photo" src="images/scattering-image.png" alt="A diagram of the equipment" >
                             <figcaption>
                                 Diagram of the α particles scattering after coming in contact with the gold
                             </figcaption>
                         </figure>
                     </div>
-                    <div>
-                        <p id="gold-foil-text" class="w3-Dosis w3-container paragraph-text">
+                    <div class="w3-container paragraph-text">
+                        <p id="gold-foil-text" class="w3-Dosis">
                             Ernest Rutherford, a scientist from New Zealand who investigated the chemistry of radioactive substances, decided to use the alpha particles emitted by sources to research the atom.
                             Whilst Rutherford orchestrated the experiment, it was actually his students, Geiger and Marsden who actually ran the experiment.
                             <br>
                             The apparatus used included :</p>
-                        <ul class="w3-Dosis paragraph-text">
+                        <ul class="w3-Dosis">
                             <li>Alpha particle source</li>
                             <li>Gold foil (very thin)</li>
                             <li>A vacuum chamber</li>
                             <li>Flourescent screen</li>
                             <li>Detector</li>
                         </ul>
-                        <p id="gold-foil-text-2" class="w3-Dosis w3-container paragraph-text">
+                        <p id="gold-foil-text-2" class="w3-Dosis">
                             The alpha particle source was set up in such a way that alpha particles only travel towards the gold foil. The gold foil was inside of a vacuum chamber to reduce the chances that anything interferes with the results. A flourescent screen was placed around the vacuum chamber, which would cause it to glow in spots when an alpha particle collides.
                             <br>
                             The observed results showed that most of the alpha particles passed through the gold without deflections, but a few were deflected and very few bounced off the foil. This was measured by observing points around the flourescent screen glowing when the alpha particles came in contact. 
@@ -128,15 +133,13 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <div>
-                        <p id="rutherford-equation-text" class="w3-Dosis w3-container paragraph-text">
-                            Rutherford derived the equation pictured after assuming that: most of the atom is empty space; the centre of the atom holds all the mass and all of the positive charge; alpha particles scatter because of the electrostatic force between the alpha particle and the nucleus.
-                            The equation also shows that the closer an alpha particle gets to the nucleus, the more it is deflected away.
-                            Furthermore, since the number of alpha particles changed depending on the element they were being fired at, different elements must have different amounts of charges.
-                            This new model showed the difference elements have with one another, with different elements having different proton numbers.
-                    
-                        </p>
-                    </div>
+                    <p id="rutherford-equation-text" class="w3-Dosis w3-container paragraph-text">
+                        Rutherford derived the equation pictured after assuming that: most of the atom is empty space; the centre of the atom holds all the mass and all of the positive charge; alpha particles scatter because of the electrostatic force between the alpha particle and the nucleus.
+                        The equation also shows that the closer an alpha particle gets to the nucleus, the more it is deflected away.
+                        Furthermore, since the number of alpha particles changed depending on the element they were being fired at, different elements must have different amounts of charges.
+                        This new model showed the difference elements have with one another, with different elements having different proton numbers.
+                
+                    </p>
                 </div>
             </section>
             <section id="niels-bohr">
@@ -153,8 +156,8 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <div>
-                        <p id="niels-bohr-text" class="w3-Dosis w3-container paragraph-text">
+                    <div class="w3-Dosis w3-container paragraph-text">
+                        <p id="niels-bohr-text" >
                             Rutherford's model did not explain why electrons orbitted the atom rather than spiral down into it due to the electrostatic force. The Danish physicist, Niels Bohr, was trying to solve the problems found within Rutherford's model and created a new model.
                             <br>
                             Bohr's model suggested the idea of electrons being at different energy levels and electrons can only be at these specific energy levels. Electrons can move up and down these energy levels by absorbing and releasing energy. This was good, but it didn't solve all the problems of atomical models.
@@ -165,7 +168,7 @@
                 <div id="niels-photo" class="w3-container"></div>
             </section>
             <section id="schrodinger">
-                <div id="schrodinger-title" style="position: relative;background-color: #1ba2aa">
+                <div id="schrodinger-title" style="position: relative;background-color: #002a4a">
                     <h2 id="schrodinger-title-text" class="w3-Dosis w3-center center title-text">SCHRÖDINGER'S<br>CLOUD</h2>
                 </div>
                 <div id="schrodinger-content" class="pager">
@@ -183,11 +186,11 @@
                         </p>
                     </div>
                 </div>
-                <div id="schrodinger-photo" class="w3-container"></div>
+                <div id="schrodinger2-photo" class="w3-container"></div>
             </section>
             <section id="chadwick">
                 <div id="chadwick-photo" class="w3-container"></div>
-                <div id="chadwick-title" style="position: relative;background-color: #1ba2aa">
+                <div id="chadwick-title" style="position: relative;background-color: #d64700">
                     <h2 id="chadwick-title-text" class="w3-Dosis w3-center center title-text">CHADWICK'S<br>NEUTRON</h2>
                 </div>
                 <div id="chadwick-content" class="pager">
@@ -199,8 +202,8 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <div>
-                        <p id="chadwick-text" class="w3-Dosis w3-container paragraph-text">
+                    <div class="w3-Dosis w3-container paragraph-text">
+                        <p id="chadwick-text" >
                             There still was an issue with the atomic model at the time, a helium nucleus would have an atomic number of 2, but a mass number of 4 - it seemed like there was something missing. Rutherford had previously proposed that a proton and an electron could combine to make a neutral particle, but it was dismissed as the neutral particle would be hard to detect and there was no real evidence.
                             <br>
                             Chadwick noticed some odd unexpected behaviour concerning radiation after Frédéric and Irène Joliot-Curie observed an unidentified piece of radiation from beryllium as it hit a paraffin wax target. Chadwick tried similar experminets himself and became convinced that the radiation was a neutral particle about the same mass as a proton. Since this particle had no charge, Chadwick observed they penetrated deeper into a target than protons. Chadwick had discovered the neutron.
@@ -208,7 +211,7 @@
                     </div>
                 </div>
             </section>
-            <div id="modern-photo" class="w3-container"></div>
+            <div id="models-photo" class="w3-container"></div>
             <section id="intro-page">
                 <div id="intro-div" class="w3-container">
                     <p id="intro-text" class="w3-Dosis w3-center">
@@ -220,6 +223,7 @@
         <footer>
             <section id="front-page">
                 <div id="last-div" class="w3-container full-page">
+                    <div id="home-bg-div"></div>
                     <div id="end-div" class="w3-container">
                         <h1 class="w3-Dosis w3-center">~<br><a href="https://github.com/YourKalamity/atomic-model">click me to view source code</a><br>~</h1>
                     </div>
